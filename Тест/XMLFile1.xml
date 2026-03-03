@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Document ProgramVersion="15.2.4.53070" Generator="GrandSmeta" DocumentType="{2B0470FD-477C-4359-9F34-EEBE36B7D340}" GrandSmetaSign="XHQAAAM7OziAiw+Dn7/Du7CDk7uH79+AgzvDl7eHz8OMiTlB3PEI3RTE1NDM3ODM5RTUxMTBGRDk5NTU0MkRGMzRBQkY3">
+	<Properties LocNum="GDORB-09-1363-2026-И1" Object="Здание пропарочного цеха с эстакадой  инв. 09*10177" Description="00001171 Ремонт ЗиС производственного назначения" />
+	<GsDocSignatures>
+		<Item Caption="Основание" ID="100" Value="09-1363-2026/39КР-П-Изм1, 09*10177" />
+		<Item Caption="Наименование дочернего общества" ID="107" Value="ООО &quot;Газпром добыча Оренбург&quot;" />
+		<Item Caption="Смета составлена в ценах по состоянию на:" ID="102" Value="01.01.2026" />
+		<Item Caption="Составил: Руководитель ГСО СПКР ИТЦ" ID="3004" Value="Н.Ю. Завалишина">
+			<Attributes>
+				<Item Caption="Должность" ID="970" Value="инженер 1 категории МРУ" />
+			</Attributes>
+		</Item>
+		<Item Caption="Проверил: Заместитель начальника СПКР ИТЦ" ID="3006" Value="Г.В. Суханова" />
+	</GsDocSignatures>
+	<DocDates BasePriceDate="01.01.2022" />
+	<RegionalK Options="Percent Base" />
+	<TerZoneK Caption="Территориальная поправка к базе 2001г" Options="Base PzAll EmAll" />
+	<WinterCatalog WinterMode="None" WinterLinkMode="Table">
+		<CommonWinterK />
+	</WinterCatalog>
+	<RegionInfo RegionName="ФСНБ-2022 (с Изм. 1-11)" RegionID="21011" Zone84Name="Базовый территориальный район" Zone84ID="1" Zone01Name="Базовый район" Zone01ID="1" />
+	<FRSN_Info BaseType="GSN" BaseName="Приказ Минстроя России от 30.12.2021 № 1046/пр; Приказ Минстроя России от 04.08.2020 № 421/пр; Приказ Минстроя России от 21.12.2020 № 812/пр; Приказ Минстроя России от 11.12.2020 № 774/пр; Приказ Минстроя России от 02.08.2023 № 551/пр; Приказ Минстроя России от 14.11.2023 № 817/пр; Приказ Минстроя России от 16.02.2024 № 102/пр; Приказ Минстроя России от 13.05.2024 №323/пр; Приказ Минстроя России от 09.08.2024 №524/пр" RegNumber="503" RegDate="09.08.2024" OrderDetails="Приказ Минстроя России от 18 мая 2022 г. № 378/пр, Приказ Минстроя России от 26 августа 2022 г. № 703/пр, Приказ Минстроя России от 26 октября 2022 г. № 905/пр, Приказ Минстроя России от 27 декабря 2022 г. № 1133/пр, Приказ Минстроя России от 10 февраля 2023 г. № 84/пр, Приказ Минстроя России от 11.05.2023 №335/пр; Приказ Минстроя России от 07.07.2022 № 557/пр; Приказ Минстроя России от 02.09.2021 № 636/пр, Приказ Минстроя России от 26.07.2022 № 611/пр; Приказ Минстроя России от 22.04.2022 № 317/пр; Приказ Минстроя России от 02.08.2023 № 551/пр; Приказ Минстроя России от 14.11.2023 № 817/пр; Приказ Минстроя России от 16.02.2024 № 102/пр;  Приказ Минстроя России от 13.05.2024 №323/пр; Приказ Минстроя России от 09.08.2024 №524/пр">
+		<Overhd_Info BaseType="GSN" BaseName="Методика по разработке и применению нормативов накладных расходов при определении сметной стоимости строительства, реконструкции, капитального ремонта, сноса объектов капитального строительства. Утверждена приказом Минстроя России от 21 декабря 2020 г. № 812/пр. Внесены изменения приказом Минстроя России от 02.09.2021 г. № 636/пр. Внесены изменения приказом Минстроя России от 26.07.2022 г. № 611/пр." RegNumber="377" RegDate="16.04.2021" OrderDetails="Приказы Минстроя России № 812/пр от 21.12.2020, № 636/пр от 02.09.2021, № 611/пр от 26.07.2022" />
+		<Profit_Info BaseType="GSN" BaseName="Методика по разработке и применению нормативов сметной прибыли при определении сметной стоимости строительства, реконструкции, капитального ремонта, сноса объектов капитального строительства. Утверждена приказом Минстроя России от 11 декабря 2020 г. № 774/пр. Внесены изменения приказом Минстроя России от 22.04.2022 г. № 317/пр." RegNumber="376" RegDate="16.04.2021" OrderDetails="Приказы Минстроя России № 774/пр от 11.12.2020, № 317/пр от 22.04.2022" />
+	</FRSN_Info>
+	<Parameters Options="RoundPos AddZatr ZpmByTz ExactResCalc 2020Mode SeparateFot RoundNPCurr ObsoleteRound 2022Mode 2020Variation 2022AuxMatK" Mode2020Order="2024" BasePrices="2001" BaseCalcVrs="Vr2001" TzDigits="2" BlockRoundMode="None" MultKPosCalcMode="UseTotalMult" TempZone="1" TsnTempZone="1" MatDigits="4" MatRoundMode="SignDigitsPreserveInt" PosKDigits="7" ItogOptions="SeparateVrs IgnoreZeroQty IgnoreZeroPrice" FirstItogItem="K" ItogExpandTo="K">
+		<CommonNK ActiveItems="Vk Ck Mk" />
+		<CommonPK ActiveItems="Vk Ck Mk" />
+		<Numbering Mode="Sequential" Options="Auto SkipInactive" />
+	</Parameters>
+	<Indexes IndexesMode="None" IndexesLinkMode="Default" />
+	<AddZatrats>
+		<AddZatrGlava Glava="8" />
+		<AddZatrGlava Glava="9">
+			<AddZatr Caption="ДВ п.1,6 Утилизация отходов IV-V класса опасности ( Приказ ООО &quot;Экоспутник&quot; №70-Э от 14.06.2023 (при актах выполненных работ требует фактического подтверждения )" Options="InSmr HideZero" Formula="1000/1,2*5,2" />
+		</AddZatrGlava>
+		<AddZatrGlava Glava="10" />
+		<AddZatrGlava Glava="11" />
+		<AddZatrGlava Glava="12" />
+		<AddZatrGlava Glava="13">
+			<AddZatr Caption="Непредвиденные затраты" Value="1,5" Options="Percent HideZero" />
+		</AddZatrGlava>
+		<AddZatrGlava Glava="14">
+			<AddZatr Caption="индекс дефлятор 2025/2026 к=1,053" Value="5,3" Options="Percent HideZero AsKf" Level="1" />
+			<AddZatr Caption="индекс дефлятор 2024/2025 к=1,078" Value="7,8" Options="Percent HideZero AsKf" Level="2" />
+			<AddZatr Caption="В т.ч. МТР" Options="Percent Inactive HideZero" Formula="МАТ*1,053*1,078" Level="3" />
+		</AddZatrGlava>
+		<AddZatrGlava Glava="15" />
+	</AddZatrats>
+	<OsInfo OSChapter="1" LinkType="RS">
+		<CCChapter Cons="2" Rec="2" Road="2" />
+	</OsInfo>
+	<CennikAutoLoad Enabled="False" MatchFields="Code" Fields="PriceBase PriceCurr" Groups="Tzr Tzm Mch Mat" SubGroups="Standart Positions" Options="IgnoreCodePrefix" PriceTypes="PriceBase PriceCurr">
+		<DocLink />
+	</CennikAutoLoad>
+	<VidRab_Catalog>
+		<Vids_Rab Type="Виды работ 2001г" CatFile="ВР Методика 2020 и 636 и 317 и 611">
+			<VidRab_Group Caption="Новая группа" ID="0">
+				<Vid_Rab Caption="Строительные металлические конструкции" ID="10016" Category="Construction" NrCode="Пр/812-009.0-1" SpCode="Пр/774-009.0" Nacl="93" Plan="62" NaclCurr="93" PlanCurr="62" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Кровли" ID="10019" Category="Construction" NrCode="Пр/812-012.0-1" SpCode="Пр/774-012.0" Nacl="109" Plan="57" NaclCurr="109" PlanCurr="57" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Отделочные работы" ID="10025" Category="Construction" NrCode="Пр/812-015.0-1" SpCode="Пр/774-015.0" Nacl="100" Plan="49" NaclCurr="100" PlanCurr="49" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Полы" ID="10018" Category="Construction" NrCode="Пр/812-011.0-1" SpCode="Пр/774-011.0" Nacl="112" Plan="65" NaclCurr="112" PlanCurr="65" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Бетонные и железобетонные сборные конструкции и работы в строительстве" ID="10013" Category="Construction" NrCode="Пр/812-007.0-1" SpCode="Пр/774-007.0" Nacl="110" Plan="73" NaclCurr="110" PlanCurr="73" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Деревянные конструкции" ID="10017" Category="Construction" NrCode="Пр/812-010.0-1" SpCode="Пр/774-010.0" Nacl="108" Plan="55" NaclCurr="108" PlanCurr="55" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Изготовление технологических металлических конструкций в условиях производственных баз" ID="11366" OsColumn="М" Category="Mounting" NrCode="Пр/812-080.0-1" SpCode="Пр/774-080.0" Nacl="90" Plan="45" NaclCurr="90" PlanCurr="45" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Теплоизоляционные работы" ID="10030" Category="Construction" NrCode="Пр/812-020.0-1" SpCode="Пр/774-020.0" Nacl="97" Plan="55" NaclCurr="97" PlanCurr="55" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Бетонные и железобетонные монолитные конструкции и работы в строительстве" ID="10011" Category="Construction" NrCode="Пр/812-006.0-1" SpCode="Пр/774-006.0" Nacl="102" Plan="58" NaclCurr="102" PlanCurr="58" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Защита строительных конструкций и оборудования от коррозии" ID="10020" Category="Construction" NrCode="Пр/812-013.0-1" SpCode="Пр/774-013.0" Nacl="94" Plan="51" NaclCurr="94" PlanCurr="51" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Конструкции из кирпича и блоков" ID="10015" Category="Construction" NrCode="Пр/812-008.0-1" SpCode="Пр/774-008.0" Nacl="110" Plan="69" NaclCurr="110" PlanCurr="69" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Магистральные и промысловые трубопроводы" ID="10029" Category="Construction" NrCode="Пр/812-019.0-1" SpCode="Пр/774-019.0" Nacl="111" Plan="60" NaclCurr="111" PlanCurr="60" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Бетонные и железобетонные сборные конструкции жилых, общественных и административно-бытовых зданий промышленных предприятий" ID="11324" Category="Construction" NrCode="Пр/812-007.1-1" SpCode="Пр/774-007.1" Nacl="116" Plan="80" NaclCurr="116" PlanCurr="80" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Автомобильные дороги" ID="10031" Category="Construction" NrCode="Пр/812-021.0-1" SpCode="Пр/774-021.0" Nacl="147" Plan="134" NaclCurr="147" PlanCurr="134" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Сооружения связи, радиовещания и телевидения" ID="10939" Category="Construction" NrCode="Пр/812-028.0-1" SpCode="Пр/774-028.0" Nacl="98" Plan="58" NaclCurr="98" PlanCurr="58" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Материалы для строительных работ" ID="10091" Category="Construction" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Земляные работы, выполняемые ручным способом" ID="10002" Category="Construction" NrCode="Пр/812-001.2-1" SpCode="Пр/774-001.2" Nacl="89" Plan="40" NaclCurr="89" PlanCurr="40" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Материалы" ID="2945" NaclMask="ФОТ" PlanMask="ФОТ" />
+			</VidRab_Group>
+			<VidRab_Group Caption="Ремонтно-строительные работы" ID="5">
+				<Vid_Rab Caption="Прочие ремонтно-строительные работы" ID="10086" Category="Construction" NrCode="Пр/812-103.0-1" SpCode="Пр/774-103.0" Nacl="92" Plan="44" NaclCurr="92" PlanCurr="44" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Проемы (ремонтно-строительные)" ID="10071" Category="Construction" NrCode="Пр/812-090.0-1" SpCode="Пр/774-090.0" Nacl="90" Plan="47" NaclCurr="90" PlanCurr="47" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Стекольные, обойные и облицовочные работы (ремонтно-строительные)" ID="10078" Category="Construction" NrCode="Пр/812-097.0-1" SpCode="Пр/774-097.0" Nacl="90" Plan="45" NaclCurr="90" PlanCurr="45" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Полы (ремонтно-строительные)" ID="10072" Category="Construction" NrCode="Пр/812-091.0-1" SpCode="Пр/774-091.0" Nacl="89" Plan="49" NaclCurr="89" PlanCurr="49" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Штукатурные работы (ремонтно-строительные)" ID="10076" Category="Construction" NrCode="Пр/812-095.0-1" SpCode="Пр/774-095.0" Nacl="89" Plan="44" NaclCurr="89" PlanCurr="44" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Крыши, кровли (ремонтно-строительные)" ID="10073" Category="Construction" NrCode="Пр/812-092.0-1" SpCode="Пр/774-092.0" Nacl="90" Plan="46" NaclCurr="90" PlanCurr="46" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Стены (ремонтно-строительные)" ID="10068" Category="Construction" NrCode="Пр/812-087.0-1" SpCode="Пр/774-087.0" Nacl="92" Plan="52" NaclCurr="92" PlanCurr="52" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Фундаменты (ремонтно-строительные)" ID="10067" Category="Construction" NrCode="Пр/812-086.0-1" SpCode="Пр/774-086.0" Nacl="93" Plan="55" NaclCurr="93" PlanCurr="55" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Малярные работы (ремонтно-строительные)" ID="10077" Category="Construction" NrCode="Пр/812-096.0-1" SpCode="Пр/774-096.0" Nacl="90" Plan="46" NaclCurr="90" PlanCurr="46" NaclMask="ФОТ" PlanMask="ФОТ" />
+			</VidRab_Group>
+			<VidRab_Group Caption="Реконструкция" ID="6">
+				<Vid_Rab Caption="Работы по реконструкции зданий и сооружений: разборка отдельных конструктивных элементов здания (сооружения), а также зданий (сооружений) в целом" ID="11329" Category="Construction" NrCode="Пр/812-040.2-1" SpCode="Пр/774-040.2" Nacl="91" Plan="52" NaclCurr="91" PlanCurr="52" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Работы по реконструкции зданий и сооружений: усиление и замена существующих конструкций, возведение отдельных конструктивных элементов" ID="10064" Category="Construction" NrCode="Пр/812-040.1-1" SpCode="Пр/774-040.1" Nacl="103" Plan="59" NaclCurr="103" PlanCurr="59" NaclMask="ФОТ" PlanMask="ФОТ" />
+			</VidRab_Group>
+			<VidRab_Group Caption="Горнопроходческие работы" ID="7">
+				<Vid_Rab Caption="Тоннели и метрополитены, открытый способ работ" ID="10034" Category="Construction" NrCode="Пр/812-023.2-1" SpCode="Пр/774-023.2" Nacl="126" Plan="60" NaclCurr="126" PlanCurr="60" NaclMask="ФОТ" PlanMask="ФОТ" />
+			</VidRab_Group>
+			<VidRab_Group Caption="Сантехнические работы" ID="4">
+				<Vid_Rab Caption="Сантехнические работы - внутренние (трубопроводы, водопровод, канализация, отопление, газоснабжение, вентиляция и кондиционирование воздуха)" ID="10026" Category="Construction" NrCode="Пр/812-016.0-1" SpCode="Пр/774-016.0" Nacl="121" Plan="72" NaclCurr="121" PlanCurr="72" NaclMask="ФОТ" PlanMask="ФОТ" />
+			</VidRab_Group>
+			<VidRab_Group Caption="Перевозка грузов (грунт, мусор и подобное)" ID="1015">
+				<Vid_Rab Caption="Перевозка грузов автотранспортом (Автомобили бортовые)" ID="11390" Category="TranspTrucks" ResGroup="Transp" NaclMask="ФОТ" PlanMask="ФОТ" />
+				<Vid_Rab Caption="Погрузо-разгрузочные работы при перевозке грузов (грунт, мусор и подобное)" ID="11411" Category="Transportation" ResGroup="Load" NaclMask="ФОТ" PlanMask="ФОТ" />
+			</VidRab_Group>
+		</Vids_Rab>
+		<Vids_Rab Type="Виды работ 1984г">
+			<VidRab_Group Caption="Новая группа" ID="0">
+				<Vid_Rab Caption="Сантехнические работы" ID="16" Nacl="80" Plan="8" NaclMask="ОЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Стройматериалы (Ц1, ч.1)" ID="19" Nacl="14,2" Plan="8" NaclMask="ПЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Реставрационные работы" ID="25" Nacl="21,9" Plan="8" NaclMask="ПЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Монтаж металлоконструкций" ID="18" Nacl="80" Plan="8" NaclMask="ОЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Материалы для монтажных работ" ID="13" Plan="8" NaclMask="ПЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Специальные строительные работы" ID="17" Nacl="80" Plan="8" NaclMask="ОЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Реконструкция" ID="30" Nacl="14,2" Plan="8" NaclMask="ПЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Местные материалы" ID="11" Nacl="14,2" Plan="8" NaclMask="ПЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Металлоконструкции (Ц1, ч.2)" ID="20" Nacl="8,6" Plan="8" NaclMask="ПЗ" PlanMask="ПЗ" />
+				<Vid_Rab Caption="Оборудование" ID="15" NaclMask="ПЗ" PlanMask="ПЗ" />
+			</VidRab_Group>
+			<VidRab_Group Caption="Ремонтно-строительные работы" ID="5">
+				<Vid_Rab Caption="Ремонтные работы (ВРЕР)" ID="29" Nacl="14,2" Plan="2,5" NaclMask="ПЗ" PlanMask="ПЗ" />
+			</VidRab_Group>
+		</Vids_Rab>
+	</VidRab_Catalog>
+	<Chapters>
+		<Chapter Caption="Демонтажные работы" SysID="1">
+			<Position Caption="п.1.1&#xD;&#xA;Разборка покрытий кровель: из рулонных материалов" Number="1" Code="ГЭСН46-04-008-01" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="446" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="1" PzSync="Yes" Vr2001="11329">
+				<Quantity Fx="1" KUnit="100" Result="1" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 2,0" Code="1-100-20" Units="чел.-ч" Quantity="14,38" WorkClass="2">
+						<PriceCurr Value="361,5" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mch Caption="Лебедки электрические тяговым усилием 19,62 кН (2 т)" Code="91.06.03-055" Units="маш.-ч" Quantity="6,22">
+						<PriceBase Value="11,45" />
+						<PriceCurr Value="16,74" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mch>
+				</Resources>
+				<WorksList>
+					<Work Caption="Снятие материала покрытия." />
+					<Work Caption="Скатывание рулонных материалов, полученных от разборки." />
+				</WorksList>
+			</Position>
+			<Position Caption="п.1.2, 3.1&#xD;&#xA;Смена обделок из листовой стали (поясков, сандриков, отливов, карнизов) шириной: до 0,7 м" Number="2" Code="ГЭСНр58-01-020-02" ColorIndex="3" Units="100 м" SysID="578" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="85,7 / 100" DBFlags="TechK" PzSync="Yes" Vr2001="10073">
+				<Quantity Fx="=85,7" KUnit="100" Result="0,857" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,0" Code="1-100-30" Units="чел.-ч" Quantity="63,22" WorkClass="3">
+						<PriceCurr Value="394,66" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,2" />
+					<Mch Caption="Подъемники одномачтовые, грузоподъемность до 500 кг, высота подъема 45 м" Code="91.06.06-048" Units="маш.-ч" Quantity="0,14">
+						<PriceBase Value="37,32" ZM="298,77" />
+						<PriceCurr Value="36,27" ZM="380,65" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="3" Quantity="1" Price="380,65" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,06">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Гвозди строительные" Code="01.7.15.06-0111" Units="т" Attribs="Deleted" Quantity="0,004">
+						<PriceBase Value="70296,2" />
+						<PriceCurr Value="216767,98" ZM="205000" Comment="Газпром 2023. Зона 118 (ЕС МТР: 1127110.372)" />
+					</Mat>
+					<Mat Caption="Проволока канатная оцинкованная, диаметр 2,6 мм" Code="08.3.03.05-0001" Units="т" Quantity="0,006">
+						<PriceBase Value="149930,17" />
+						<PriceCurr Value="152754,22" ZM="144196,67" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Сталь листовая оцинкованная" Code="08.3.05.05" Units="т" Options="NotCount" Quantity="0,324" />
+					<Mat Caption="Строительный мусор" Code="999-9900" Units="т" Options="NotCount" Quantity="0,33" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Снятие старых элементов." />
+					<Work Caption="Заготовка новых деталей." />
+					<Work Caption="Укрепление элементов на месте." />
+				</WorksList>
+			</Position>
+			<Position Caption="саморез 3,5*50 оцинкованный с прессшайбой (90211033)" Number="3" Code="1164001.1280" ItemFlags="Info" Units="ШТ" SysID="469" PriceLevel="Curr" Quantity="ОКР(170; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="170" Precision="7" Result="170" />
+				<PriceCurr MT="2,8" Comment="ЕС МТР 1164001.1280, КСР" />
+			</Position>
+			<Position Caption="саморез 3,5*16 оцинкованный с прессшайбой (90211069)" Number="4" Code="1164002.249" ItemFlags="Info" Units="ШТ" SysID="471" PriceLevel="Curr" Quantity="ОКР(90; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="90" Precision="7" Result="90" />
+				<PriceCurr MT="2,04" Comment="ЕС МТР 1164002.249, КСР" />
+			</Position>
+			<Position Caption="Сталь листовая оцинкованная, толщина 0,7 мм (700х2500 - 35шт)" Number="5" Code="08.3.05.05-0053-0001" Units="т" SysID="579" PriceLevel="Curr" Quantity="0,349" PzSync="Yes" Vr2001="2945" Mass="1000">
+				<Quantity Fx="0,349" Result="0,349" />
+				<PriceCurr MT="91780,75" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="84260,9" />
+			</Position>
+			<Position Caption="дюбель распорный 6*50 (91138257)" Number="6" Code="01.7.15.07-0000-0016" ItemFlags="Info" Units="100 шт" SysID="472" PriceLevel="Curr" Quantity="ОКР(1,7; 7)" PzSync="Yes" Vr2001="2945" Mass="0,54">
+				<Quantity Fx="1,7" KUnit="100" Precision="7" Result="1,7" />
+				<PriceCurr MT="94,68" Comment="(ЕС МТР: 1165001.1093) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="88,66" />
+			</Position>
+			<Position Caption="герметик силиконовый высокотемпературныи? 310 мл (90663907)" Number="7" Code="14.5.01.07-0000-0009" ItemFlags="Info" Units="шт" SysID="473" PriceLevel="Curr" Quantity="ОКР(4; 7)" PzSync="Yes" Vr2001="2945" Mass="1,02">
+				<Quantity Fx="4" Precision="7" Result="4" />
+				<PriceCurr MT="268,72" Comment="(ЕС МТР: 1225791.528) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="258,48" />
+			</Position>
+			<Position Caption="п.1.3&#xD;&#xA;Разборка парапетной планки  из листового металла 0,7 мм, шириной 350 мм." Number="8" Code="ГЭСНр58-01-003-01" ItemFlags="Info" ColorIndex="3" Units="100 м" SysID="460" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР(0,25; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10073">
+				<Quantity Fx="0,25" KUnit="100" Precision="7" Result="0,25" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 2,0" Code="1-100-20" Units="чел.-ч" Quantity="9,1" WorkClass="2">
+						<PriceCurr Value="361,5" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mch Caption="Лебедки электрические тяговым усилием до 5,79 кН (0,59 т)" Code="91.06.03-060" Units="маш.-ч" Quantity="0,12">
+						<PriceBase Value="6,62" />
+						<PriceCurr Value="12,06" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mch>
+					<Mat Caption="Строительный мусор" Code="999-9900" Units="т" Options="NotCount CountInPlace" Attribs="Replaced" Quantity="0,125" PriceLevel="2001">
+						<Replaced Caption="Строительный мусор" Code="999-9900" Units="т" Options="NotCount CountInPlace" Attribs="Deleted" Quantity="0,12" PriceLevel="2001" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Разборка креплений." />
+					<Work Caption="Разборка на элементы." />
+					<Work Caption="Укладка на стройплощадке." />
+				</WorksList>
+			</Position>
+			<Position Caption="п.1.4, 2.2&#xD;&#xA;Смена закладной доски  (для крепление отлива) (в 2 доски)" Number="9" Code="ГЭСНр53-01-006-01" ColorIndex="3" Units="100 м" SysID="580" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР(0,857*2; 7)" PzSync="Yes" Vr2001="10068">
+				<Quantity Fx="0,857*2" KUnit="100" Precision="7" Result="1,714" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,2" Code="1-100-32" Units="чел.-ч" Quantity="31,84" WorkClass="3,2">
+						<PriceCurr Value="404,61" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,18" />
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,18">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Гвозди строительные" Code="01.7.15.06-0111" Units="т" Attribs="Deleted" Quantity="0,002">
+						<PriceBase Value="70296,2" />
+						<PriceCurr Value="216767,98" ZM="205000" />
+					</Mat>
+					<Mat Caption="Доски обрезные хвойных пород длиной 2 - 3,75 м, шириной 75 - 150 мм, толщиной 25 мм" Code="11.1.03.06" Units="м3" Options="NotCount" Quantity="0,263" />
+					<Mat Caption="Строительный мусор" Code="999-9900" Units="т" Options="NotCount" Quantity="0,25" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Удаление поврежденных досок." />
+					<Work Caption="Пришивка досок с их заготовкой, острожкой с одной стороны, стеской двух кромок." />
+				</WorksList>
+			</Position>
+			<Position Caption="Болт анкерный с гайкой 10,0х150 (90057916)" Number="10" Code="01.7.15.02-0000-0357" ItemFlags="Info" Units="1000 шт" SysID="497" PriceLevel="Curr" Quantity="ОКР(0,34; 7)" PzSync="Yes" Vr2001="2945" Mass="123,756">
+				<Quantity Fx="0,34" KUnit="1000" Precision="7" Result="0,34" />
+				<PriceCurr MT="31603,8" Comment="(ЕС МТР: 1129001.101) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="30030" />
+			</Position>
+			<Position Caption="доска обрезная хвойных пород 40*150  (90748969)" Number="11" Code="11.1.03.06-0075-0001" ItemFlags="Info" Units="м3" SysID="496" PriceLevel="Curr" Quantity="ОКР(1,03; 7)" PzSync="Yes" Vr2001="2945" Mass="610">
+				<Quantity Fx="1,03" Precision="7" Result="1,03" />
+				<PriceCurr MT="17698,24" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="14347,32" />
+			</Position>
+			<Position Caption="п.1.5, 1.6&#xD;&#xA;Расчистка поверхностей шпателем от раствора и бетона (прим.)" Number="12" Code="ГЭСНр62-04-011-01" ColorIndex="3" Units="м2" SysID="584" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР(69,6; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10077">
+				<Quantity Fx="69,6" Precision="7" Result="69,6" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 1,6" Code="1-100-16" Units="чел.-ч" Quantity="0,58" WorkClass="1,6">
+						<PriceCurr Value="349,56" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+				</Resources>
+				<WorksList>
+					<Work Caption="Расчистка поверхностей от старых покрасок." />
+				</WorksList>
+			</Position>
+			<Position Caption="Погрузка строительного мусора" Number="13" Code="5-1-1-41" ColorIndex="8" Units="1 т" SysID="585" PriceLevel="Curr" Quantity="5,2" PzSync="Yes" Vr2001="11411">
+				<Quantity Fx="5,2" Result="5,2" />
+				<PriceCurr EM="275,66" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+			</Position>
+			<Position Caption="Перевозка грузов Автомобиль бортовой, г/п до 10т, расстояние перевозки: 15, к-т загрузки а/м: 1" Number="14" Code="3-1-1-15" ItemFlags="Info" ColorIndex="8" Units="1т" SysID="490" PriceLevel="Curr" Quantity="ОКР(5,2; 7)" PzSync="Yes" Vr2001="11390">
+				<Quantity Fx="5,2" Precision="7" Result="5,2" />
+				<PriceCurr EM="679,39" Comment="Газпром 2024 ремонт. Зона 118" />
+			</Position>
+		</Chapter>
+		<Chapter Caption="Монтажные работы" SysID="2">
+			<Header Caption="Устройство стяжки толщиной 50 мм, закладной" />
+			<Position Caption="п.2.1&#xD;&#xA;Устройство выравнивающих стяжек: цементно-песчаных толщиной 15 мм" Number="15" Code="ГЭСН12-01-017-01" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="443" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="0,6" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="0,6" KUnit="100" Result="0,6" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,1" Code="1-100-31" Units="чел.-ч" Quantity="24,3" WorkClass="3,1">
+						<PriceCurr Value="399,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="1,94" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,68">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Погрузчики одноковшовые универсальные фронтальные пневмоколесные, номинальная вместимость основного ковша 2,6 м3, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.-ч" Quantity="1,26">
+						<PriceBase Value="1408,28" ZM="386,65" />
+						<PriceCurr Value="2524,18" ZM="492,61" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="5" Quantity="1" Price="492,61" />
+					</Mch>
+					<Mch Caption="Растворонасосы, производительность 4 м3/ч" Code="91.07.07-011" Units="маш.-ч" Quantity="2,29">
+						<PriceBase Value="13,69" />
+						<PriceCurr Value="22,88" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mch>
+					<Mat Caption="Вода" Code="01.7.03.01-0001" Units="м3" Quantity="3,85">
+						<PriceBase Value="35,71" />
+						<PriceCurr Value="11,18" ZM="11,18" Comment="(ЕС МТР: 1013200.6) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Раствор готовый кладочный тяжелый цементный" Code="04.3.01.09" Units="м3" Options="NotCount" Attribs="Deleted" Quantity="1,53" />
+					<Mat Caption="Рубероид кровельный РКП-350" Code="12.1.02.06-0022" Units="м2" Attribs="Deleted" Quantity="4,4">
+						<PriceBase Value="26,93" />
+						<PriceCurr Value="43,8" ZM="34,08" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Подготовка готового основания." />
+					<Work Caption="Устройство выравнивающих стяжек." />
+				</WorksList>
+			</Position>
+			<Position Caption="п.2.1&#xD;&#xA;Устройство выравнивающих стяжек: на каждый 1 мм изменения толщины добавлять или исключать к норме 12-01-017-01" Number="16" Code="ГЭСН12-01-017-02" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="444" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="0,6" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="0,6" KUnit="100" Result="0,6" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,1" Code="1-100-31" Units="чел.-ч" Quantity="1" WorkClass="3,1">
+						<PriceCurr Value="399,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,03" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,01">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Погрузчики одноковшовые универсальные фронтальные пневмоколесные, номинальная вместимость основного ковша 2,6 м3, грузоподъемность 5 т" Code="91.06.05-011" Units="маш.-ч" Quantity="0,02">
+						<PriceBase Value="1408,28" ZM="386,65" />
+						<PriceCurr Value="2524,18" ZM="492,61" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="5" Quantity="1" Price="492,61" />
+					</Mch>
+					<Mat Caption="Раствор готовый кладочный тяжелый цементный" Code="04.3.01.09" Units="м3" Options="NotCount" Attribs="Deleted" Quantity="0,102" />
+				</Resources>
+				<Koefficients>
+					<K Caption="Количество слоев" Options="Base Curr PzAll EmAll MatQty EmQty OzpTz ZpmTz" Value_PZ="35" Level="2" />
+				</Koefficients>
+				<WorksList>
+					<Work Caption="Подготовка готового основания." />
+					<Work Caption="Устройство выравнивающих стяжек." />
+				</WorksList>
+			</Position>
+			<Position Caption="Раствор М150 (В12,5) F35, П4,W4 ГОСТ 28013-98 (4554443)" Number="17" Code="04.3.01.09-0015-0001" ItemFlags="Info" Units="м3" SysID="462" PriceLevel="Curr" Quantity="ОКР(3; 7)" PzSync="Yes" Vr2001="2945" Mass="2200">
+				<Quantity Fx="3" Precision="7" Result="3" />
+				<PriceCurr MT="8794,23" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="8794,23" />
+			</Position>
+			<Position Caption="п.2.3&#xD;&#xA;Огнебиозащитное покрытие деревянных поверхностей готовыми составами для обеспечения: первой группы огнезащитной эффективности по НПБ 251" Number="18" Code="ГЭСН26-02-018-01" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="499" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР(0,65; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10030">
+				<Quantity Fx="0,65" KUnit="100" Precision="7" Result="0,65" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,0" Code="1-100-30" Units="чел.-ч" Quantity="2,77" WorkClass="3">
+						<PriceCurr Value="394,66" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mch Caption="Автопогрузчики вилочные, грузоподъемность 1 т" Code="91.06.05-012" Units="маш.-ч" Quantity="0,0001">
+						<PriceBase Value="304,98" ZM="336,43" />
+						<PriceCurr Value="659,07" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mch Caption="Подъемники одномачтовые, грузоподъемность до 500 кг, высота подъема 15 м" Code="91.06.06-045" Units="маш.-ч" Quantity="0,0003">
+						<PriceBase Value="27,25" ZM="298,77" />
+						<PriceCurr Value="26,51" ZM="380,65" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="3" Quantity="1" Price="380,65" />
+					</Mch>
+					<Mch Caption="Агрегаты окрасочные высокого давления для окраски поверхностей конструкций, мощность 1 кВт" Code="91.21.01-012" Units="маш.-ч" Quantity="1,34">
+						<PriceBase Value="4,52" />
+						<PriceCurr Value="19,94" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mch>
+					<Mat Caption="Составы огнезащитные" Code="14.2.02.11" Units="т" Options="NotCount" Attribs="Deleted" Quantity="0,0288" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Подготовка поверхности." />
+					<Work Caption="Заполнение аппарата составом." />
+					<Work Caption="Нанесение огнезащитного состава." />
+					<Work Caption="Визуальная оценка качества огнезащитного покрытия." />
+				</WorksList>
+			</Position>
+			<Position Caption="Огнебиозащита (2464040)" Number="19" Code="14.2.02.11-0004-0001" ItemFlags="Info" Units="кг" SysID="500" PriceLevel="Curr" Quantity="ОКР(32; 7)" PzSync="Yes" Vr2001="2945" Mass="1,02">
+				<Quantity Fx="32" Precision="7" Result="32" />
+				<PriceCurr MT="226,82" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="218,3" />
+			</Position>
+			<Position Caption="п.2.4&#xD;&#xA;Устройство отсечной гидроизоляции закладной доски" Number="20" Code="ГЭСН12-01-002-10" ColorIndex="3" Units="100 м2" SysID="586" PriceLevel="2001" DBComment="Приказ Минстроя России от 02.08.2023 №551/пр" Quantity="ОКР(25,7 / 100; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="=25,7" KUnit="100" Precision="7" Result="0,257" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,8" Code="1-100-38" Units="чел.-ч" Quantity="8,44" WorkClass="3,8">
+						<PriceCurr Value="434,46" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,16" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,08">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,03">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,05">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Пропан-бутан смесь техническая" Code="01.3.02.09-0022" Units="кг" Quantity="15,02">
+						<PriceBase Value="41,38" />
+						<PriceCurr Value="58,56" ZM="50,26" Comment="(ЕС МТР: 1027236.96) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Материалы рулонные кровельные для верхнего слоя" Code="12.1.02.15" Units="м2" Options="NotCount" Quantity="116" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Наклейка рулонных материалов методом подплавления мастичного слоя газопламенными горелками." />
+				</WorksList>
+			</Position>
+			<Position Caption="унифлекс  ЭПП (4150654)" Number="21" Code="12.1.02.07-0000-0036" Units="м2" SysID="563" PriceLevel="Curr" Quantity="ОКР(29,3; 7)" PzSync="Yes" Vr2001="2945" Mass="2,8">
+				<Quantity Fx="29,3" Precision="7" Result="29,3" />
+				<PriceCurr MT="146,71" Comment="(ЕС МТР: 1577403.166) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="127,8" />
+			</Position>
+			<Header Caption="3 Монтаж отливов, парапетной планки" />
+			<Position Caption="п.3.2&#xD;&#xA;Устройство мелких покрытий (брандмауэры, парапеты, свесы и т.п.) из листовой оцинкованной стали (2500х700мм - 12шт)" Number="22" Code="ГЭСН12-01-010-01" ColorIndex="3" Units="100 м2" SysID="587" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="21 / 100" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="=21" KUnit="100" Result="0,21" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,0" Code="1-100-30" Units="чел.-ч" Quantity="97,2" WorkClass="3">
+						<PriceCurr Value="394,66" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,27" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,2">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,07">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Гвозди стальные толевые, диаметр 2-3 мм, длина 20-40 мм" Code="01.7.15.06-0022" Units="кг" Attribs="Deleted" Quantity="4">
+						<PriceBase Value="72,97" />
+						<PriceCurr Value="216,51" ZM="205" />
+					</Mat>
+					<Mat Caption="Проволока канатная оцинкованная, диаметр 3 мм" Code="08.3.03.05-0002" Units="т" Quantity="0,012">
+						<PriceBase Value="149930,17" />
+						<PriceCurr Value="123646,42" ZM="115659,61" Comment="(ЕС МТР: 1121117.49) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Сталь листовая оцинкованная, толщина 0,5 мм" Code="08.3.05.05-0051" Units="т" Attribs="Deleted" Quantity="0,57">
+						<PriceBase Value="91285" />
+						<PriceCurr Value="100515,4" ZM="93612,69" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Покрытие листовой оцинкованной сталью брандмауэров, парапетов, свесов и т.п." />
+					<Work Caption="с заготовкой картин и креплением их." />
+				</WorksList>
+			</Position>
+			<Position Caption="Сталь листовая оцинкованная, толщина 0,7 мм (90411887)" Number="23" Code="08.3.05.05-0053-0001" Units="т" SysID="588" PriceLevel="Curr" Quantity="0,12" PzSync="Yes" Vr2001="2945" Mass="1000">
+				<Quantity Fx="0,12" Result="0,12" />
+				<PriceCurr MT="91780,75" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="84260,9" />
+			</Position>
+			<Position Caption="саморез кровельный 4,2*50 (90615673)" Number="24" Code="1164001.1748" Units="ШТ" SysID="589" PriceLevel="Curr" Quantity="50" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="50" Result="50" />
+				<PriceCurr MT="4,34" Comment="ЕС МТР 1164001.1748, КСР" />
+			</Position>
+			<Position Caption="Дюбели распорные 8*50(2395355)" Number="25" Code="01.7.15.07-0000-0016" Units="100 шт" SysID="590" PriceLevel="Curr" Quantity="0,5" PzSync="Yes" Vr2001="2945" Mass="0,54">
+				<Quantity Fx="0,5" KUnit="100" Result="0,5" />
+				<PriceCurr MT="94,68" Comment="(ЕС МТР: 1165001.1093) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="88,66" />
+			</Position>
+			<Position Caption="герметик силиконовый высокотемпературныи? 310 мл(90663907)" Number="26" Code="14.5.01.07-0000-0009" Units="шт" SysID="591" PriceLevel="Curr" Quantity="2" PzSync="Yes" Vr2001="2945" Mass="1,02">
+				<Quantity Fx="2" Result="2" />
+				<PriceCurr MT="268,72" Comment="(ЕС МТР: 1225791.528) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="258,48" />
+			</Position>
+			<Header Caption="Устройство кровли в 2 слоя" />
+			<Position Caption="п.4.1&#xD;&#xA;Покрытие кровли и примыканий мастикой битумно-бутилкаучуковой холодной: вручную" Number="27" Code="ГЭСН12-01-044-01" ColorIndex="3" Units="100 м2" SysID="592" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="30 / 100" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="=30" KUnit="100" Result="0,3" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 2,3" Code="1-100-23" Units="чел.-ч" Quantity="9,8" WorkClass="2,3">
+						<PriceCurr Value="371,45" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mat Caption="Мастика битумно-бутилкаучуковая холодная" Code="01.2.03.03-0032" Units="т" Attribs="Deleted" Quantity="0,084">
+						<PriceBase Value="94417,63" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Нанесение покрытия мастики шпателем, каточками." />
+				</WorksList>
+			</Position>
+			<Position Caption="Праймер битумный Технониколь №1 (90187738)" Number="28" Code="Vseinstrumenti.ru 2025" Units="кг" SysID="593" PriceLevel="2001" Quantity="22" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="22" Result="22" />
+				<PriceBase PZ="245,83" MT="245,83" />
+				<PriceCurr MT="193,89">
+					<Fx MT="4013/1,2/16/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="п.4.1&#xD;&#xA;Устройство мягкой кровли в 2 слоя на парапет" Number="29" Code="ГЭСН12-01-002-09" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="480" PriceLevel="2001" DBComment="Приказ Минстроя России от 02.08.2023 №551/пр" Quantity="ОКР(0,3; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="0,3" KUnit="100" Precision="7" Result="0,3" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,8" Code="1-100-38" Units="чел.-ч" Quantity="14,36" WorkClass="3,8">
+						<PriceCurr Value="434,46" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,29" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,15">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,05">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,09">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Пропан-бутан смесь техническая" Code="01.3.02.09-0022" Units="кг" Quantity="29,94">
+						<PriceBase Value="41,38" />
+						<PriceCurr Value="58,56" ZM="50,26" Comment="(ЕС МТР: 1027236.96) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Материалы рулонные кровельные для верхнего слоя" Code="12.1.02.15" Units="м2" Options="NotCount" Attribs="Deleted" Quantity="114" />
+					<Mat Caption="Материалы рулонные кровельные для нижних слоев" Code="12.1.02.15" Units="м2" Options="NotCount" Attribs="Deleted" Quantity="116" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Наклейка рулонных материалов методом подплавления мастичного слоя газопламенными горелками." />
+				</WorksList>
+			</Position>
+			<Position Caption="унифлекс  ЭПП (4150654)" Number="30" Code="12.1.02.07-0000-0036" ItemFlags="Info" Units="м2" SysID="481" PriceLevel="Curr" Quantity="ОКР(34,8; 7)" PzSync="Yes" Vr2001="2945" Mass="2,8">
+				<Quantity Fx="34,8" Precision="7" Result="34,8" />
+				<PriceCurr MT="146,71" Comment="(ЕС МТР: 1577403.166) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="127,8" />
+			</Position>
+			<Position Caption="унифлекс  ЭКП (4361410)" Number="31" Code="12.1.02.07-0000-0037" ItemFlags="Info" Units="м2" SysID="482" PriceLevel="Curr" Quantity="ОКР(34,2; 7)" PzSync="Yes" Vr2001="2945" Mass="3,8">
+				<Quantity Fx="34,2" Precision="7" Result="34,2" />
+				<PriceCurr MT="170,8" Comment="(ЕС МТР: 1577403.188) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="145,7" />
+			</Position>
+			<Position Caption="п.4.2&#xD;&#xA;Покрытие кровли и примыканий мастикой битумно-бутилкаучуковой холодной: вручную" Number="32" Code="ГЭСН12-01-044-01" ColorIndex="3" Units="100 м2" SysID="594" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="3,8 / 100" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="=3,8" KUnit="100" Result="0,038" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 2,3" Code="1-100-23" Units="чел.-ч" Quantity="9,8" WorkClass="2,3">
+						<PriceCurr Value="371,45" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mat Caption="Мастика битумно-бутилкаучуковая холодная" Code="01.2.03.03-0032" Units="т" Attribs="Deleted" Quantity="0,084">
+						<PriceBase Value="94417,63" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Нанесение покрытия мастики шпателем, каточками." />
+				</WorksList>
+			</Position>
+			<Position Caption="Праймер битумный Технониколь №1 (90187738)" Number="33" Code="Vseinstrumenti.ru 2025" Units="кг" SysID="595" PriceLevel="2001" Quantity="2" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="2" Result="2" />
+				<PriceBase PZ="245,83" MT="245,83" />
+				<PriceCurr MT="193,89">
+					<Fx MT="4013/1,2/16/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="п.4.2&#xD;&#xA;Устройство примыкания  кровли в 2 слоя вентиляционным трубам O 200 мм на высоту 300 мм" Number="34" Code="ГЭСН12-01-002-09" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="483" PriceLevel="2001" DBComment="Приказ Минстроя России от 02.08.2023 №551/пр" Quantity="ОКР(0,038; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="0,038" KUnit="100" Precision="7" Result="0,038" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,8" Code="1-100-38" Units="чел.-ч" Quantity="14,36" WorkClass="3,8">
+						<PriceCurr Value="434,46" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,29" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,15">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,05">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,09">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Пропан-бутан смесь техническая" Code="01.3.02.09-0022" Units="кг" Quantity="29,94">
+						<PriceBase Value="41,38" />
+						<PriceCurr Value="58,56" ZM="50,26" Comment="(ЕС МТР: 1027236.96) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Материалы рулонные кровельные для верхнего слоя" Code="12.1.02.15" Units="м2" Options="NotCount" Attribs="Deleted" Quantity="114" />
+					<Mat Caption="Материалы рулонные кровельные для нижних слоев" Code="12.1.02.15" Units="м2" Options="NotCount" Attribs="Deleted" Quantity="116" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Наклейка рулонных материалов методом подплавления мастичного слоя газопламенными горелками." />
+				</WorksList>
+			</Position>
+			<Position Caption="унифлекс  ЭПП (4150654)" Number="35" Code="12.1.02.07-0000-0036" ItemFlags="Info" Units="м2" SysID="484" PriceLevel="Curr" Quantity="ОКР(4,408; 7)" PzSync="Yes" Vr2001="2945" Mass="2,8">
+				<Quantity Fx="4,408" Precision="7" Result="4,408" />
+				<PriceCurr MT="146,71" Comment="(ЕС МТР: 1577403.166) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="127,8" />
+			</Position>
+			<Position Caption="унифлекс  ЭКП (4361410)" Number="36" Code="12.1.02.07-0000-0037" ItemFlags="Info" Units="м2" SysID="485" PriceLevel="Curr" Quantity="ОКР(4,332; 7)" PzSync="Yes" Vr2001="2945" Mass="3,8">
+				<Quantity Fx="4,332" Precision="7" Result="4,332" />
+				<PriceCurr MT="170,8" Comment="(ЕС МТР: 1577403.188) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="145,7" />
+			</Position>
+			<Position Caption="п.4.3&#xD;&#xA;Покрытие кровли и примыканий мастикой битумно-бутилкаучуковой холодной: вручную" Number="37" Code="ГЭСН12-01-044-01" ColorIndex="3" Units="100 м2" SysID="596" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="190,5 / 100" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="=190,5" KUnit="100" Result="1,905" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 2,3" Code="1-100-23" Units="чел.-ч" Quantity="9,8" WorkClass="2,3">
+						<PriceCurr Value="371,45" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mat Caption="Мастика битумно-бутилкаучуковая холодная" Code="01.2.03.03-0032" Units="т" Attribs="Deleted" Quantity="0,084">
+						<PriceBase Value="94417,63" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Нанесение покрытия мастики шпателем, каточками." />
+				</WorksList>
+			</Position>
+			<Position Caption="Праймер битумный Технониколь №1 (90187738)" Number="38" Code="Vseinstrumenti.ru 2025" Units="кг" SysID="597" PriceLevel="2001" Quantity="22" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="22" Result="22" />
+				<PriceBase PZ="245,83" MT="245,83" />
+				<PriceCurr MT="193,89">
+					<Fx MT="4013/1,2/16/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="п.4.3&#xD;&#xA;Устройство кровли в 2 слоя" Number="39" Code="ГЭСН12-01-002-09" ItemFlags="Info" ColorIndex="3" Units="100 м2" SysID="486" PriceLevel="2001" DBComment="Приказ Минстроя России от 02.08.2023 №551/пр" Quantity="ОКР(5,34; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="5,34" KUnit="100" Precision="7" Result="5,34" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,8" Code="1-100-38" Units="чел.-ч" Quantity="14,36" WorkClass="3,8">
+						<PriceCurr Value="434,46" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,29" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,15">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,05">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,09">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Пропан-бутан смесь техническая" Code="01.3.02.09-0022" Units="кг" Quantity="29,94">
+						<PriceBase Value="41,38" />
+						<PriceCurr Value="58,56" ZM="50,26" Comment="(ЕС МТР: 1027236.96) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Материалы рулонные кровельные для верхнего слоя" Code="12.1.02.15" Units="м2" Options="NotCount" Attribs="Deleted" Quantity="114" />
+					<Mat Caption="Материалы рулонные кровельные для нижних слоев" Code="12.1.02.15" Units="м2" Options="NotCount" Attribs="Deleted" Quantity="116" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Наклейка рулонных материалов методом подплавления мастичного слоя газопламенными горелками." />
+				</WorksList>
+			</Position>
+			<Position Caption="унифлекс  ЭПП (4150654)" Number="40" Code="12.1.02.07-0000-0036" ItemFlags="Info" Units="м2" SysID="487" PriceLevel="Curr" Quantity="ОКР(619,44; 7)" PzSync="Yes" Vr2001="2945" Mass="2,8">
+				<Quantity Fx="619,44" Precision="7" Result="619,44" />
+				<PriceCurr MT="146,71" Comment="(ЕС МТР: 1577403.166) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="127,8" />
+			</Position>
+			<Position Caption="унифлекс  ЭКП (4361410)" Number="41" Code="12.1.02.07-0000-0037" ItemFlags="Info" Units="м2" SysID="488" PriceLevel="Curr" Quantity="ОКР(608,76; 7)" PzSync="Yes" Vr2001="2945" Mass="3,8">
+				<Quantity Fx="608,76" Precision="7" Result="608,76" />
+				<PriceCurr MT="170,8" Comment="(ЕС МТР: 1577403.188) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="145,7" />
+			</Position>
+			<Position Caption="п.4.4&#xD;&#xA;Покрытие кровли и примыканий мастикой битумно-бутилкаучуковой холодной: вручную" Number="42" Code="ГЭСН12-01-044-01" ColorIndex="3" Units="100 м2" SysID="599" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="0,18" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="0,18" KUnit="100" Result="0,18" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 2,3" Code="1-100-23" Units="чел.-ч" Quantity="9,8" WorkClass="2,3">
+						<PriceCurr Value="371,45" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mat Caption="Мастика битумно-бутилкаучуковая холодная" Code="01.2.03.03-0032" Units="т" Attribs="Deleted" Quantity="0,084">
+						<PriceBase Value="94417,63" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Нанесение покрытия мастики шпателем, каточками." />
+				</WorksList>
+			</Position>
+			<Position Caption="Праймер битумный Технониколь №1 (90187738)" Number="43" Code="Vseinstrumenti.ru 2025" Units="кг" SysID="600" PriceLevel="2001" Quantity="15" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="15" Result="15" />
+				<PriceBase PZ="245,83" MT="245,83" />
+				<PriceCurr MT="193,89">
+					<Fx MT="4013/1,2/16/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="п.4.4&#xD;&#xA;Устройство кровель плоских из наплавляемых материалов: в один слой" Number="44" Code="ГЭСН12-01-002-10" ColorIndex="3" Units="100 м2" SysID="598" PriceLevel="2001" DBComment="Приказ Минстроя России от 02.08.2023 №551/пр" Quantity="ОКР(52 / 100; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10019">
+				<Quantity Fx="=52" KUnit="100" Precision="7" Result="0,52" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,8" Code="1-100-38" Units="чел.-ч" Quantity="8,44" WorkClass="3,8">
+						<PriceCurr Value="434,46" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,16" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,08">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,03">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,05">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Пропан-бутан смесь техническая" Code="01.3.02.09-0022" Units="кг" Quantity="15,02">
+						<PriceBase Value="41,38" />
+						<PriceCurr Value="58,56" ZM="50,26" Comment="(ЕС МТР: 1027236.96) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Материалы рулонные кровельные для верхнего слоя" Code="12.1.02.15" Units="м2" Options="NotCount" Quantity="116" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Наклейка рулонных материалов методом подплавления мастичного слоя газопламенными горелками." />
+				</WorksList>
+			</Position>
+			<Position Caption="унифлекс  ЭПП (4150654)" Number="45" Code="12.1.02.07-0000-0036" Units="м2" SysID="569" PriceLevel="Curr" Quantity="ОКР(60; 7)" PzSync="Yes" Vr2001="2945" Mass="2,8">
+				<Quantity Fx="60" Precision="7" Result="60" />
+				<PriceCurr MT="146,71" Comment="(ЕС МТР: 1577403.166) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="127,8" />
+			</Position>
+			<Position Caption="п.4.5&#xD;&#xA;Герметизация мастикой швов: горизонтальных" Number="46" Code="ГЭСН07-01-037-03" ColorIndex="3" Units="100 м" SysID="571" PriceLevel="2001" DBComment="Приказ Минстроя России от 02.08.2023 №551/пр" Quantity="6,4" PzSync="Yes" Vr2001="10013">
+				<Quantity Fx="6,4" KUnit="100" Result="6,4" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,5" Code="1-100-35" Units="чел.-ч" Quantity="15,9" WorkClass="3,5">
+						<PriceCurr Value="419,54" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Mch Caption="Люльки одноместные самоподъемные, грузоподъемность 120 кг" Code="91.06.09-021" Units="маш.-ч" Quantity="7,16">
+						<PriceBase Value="12,16" />
+						<PriceCurr Value="18,98" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mch>
+					<Mat Caption="Мастика герметизирующая" Code="14.5.04.03" Units="кг" Options="NotCount" Attribs="Deleted" Quantity="75" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Герметизация швов мастикой." />
+				</WorksList>
+			</Position>
+			<Position Caption="Мастика битумная №21 Техномаст кровельная 20КГ (90146093) 150 кг" Number="47" Code="1233224.162" Units="шт" SysID="572" PriceLevel="Curr" Quantity="ОКР(150/20; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="150/20" Precision="7" Result="7,5" />
+				<PriceCurr MT="38988" Comment="ЕС МТР 1233224.162, КСР">
+					<Fx MT="5198,40*7,5" />
+				</PriceCurr>
+			</Position>
+		</Chapter>
+		<Chapter Caption="Наружные ремонтно-строительные работы (ремонт фасада)" SysID="3">
+			<Position Caption="п.5.1, 6.1, 6.2&#xD;&#xA;Наружная облицовка поверхности стен в горизонтальном исполнении по металлическому каркасу (с его устройством): металлосайдингом с пароизоляционным слоем" Number="48" Code="ГЭСН15-01-062-01" ColorIndex="3" Units="100 м2" SysID="608" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР(642 / 100; 7)" PzSync="Yes" Vr2001="10025">
+				<Quantity Fx="=642" KUnit="100" Precision="7" Result="6,42" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,7" Code="1-100-37" Units="чел.-ч" Quantity="141,38" WorkClass="3,7">
+						<PriceCurr Value="429,49" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,64" />
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,27">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,37">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Электроэнергия" Code="01.7.03.04-0001" Units="кВт-ч" Quantity="39,62">
+						<PriceBase Value="4,94" />
+						<PriceCurr Value="3,24" ZM="3,24" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Ленты полиэтиленовые с липким слоем, прозрачные, ширина 50 мм, толщина 0,08 мм" Code="01.7.06.03-0022" Units="м" Quantity="70">
+						<PriceBase Value="2,52" />
+						<PriceCurr Value="0,49" ZM="0,4" Comment="(ЕС МТР: 196928D.335) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Дюбель-гвозди полипропиленовые анкерные с бортом, диаметр 8 мм, длина 100 мм" Code="01.7.15.07-0083" Units="100 шт" Attribs="Deleted" Quantity="7">
+						<PriceBase Value="248,75" />
+					</Mat>
+					<Mat Caption="Шурупы самонарезающие стальные с полукруглой головкой и крестообразным шлицем, наконечник сверло, диаметр 4,2 мм, длина 16 мм" Code="01.7.15.14-0062" Units="100 шт" Attribs="Deleted" Quantity="29">
+						<PriceBase Value="26,43" />
+					</Mat>
+					<Mat Caption="Профиль направляющий из оцинкованной стали, для монтажа гипсовых перегородок и подвесных потолков, размеры 75х40 мм, толщина стали 0,6 мм" Code="07.2.06.03-0116" Units="м" Attribs="Deleted" Quantity="200">
+						<PriceBase Value="85,93" />
+					</Mat>
+					<Mat Caption="Кронштейн крепежный стальной оцинкованный угловой, размеры 200х50х50 мм, толщина 1,2 мм" Code="08.1.02.03-0041" Units="шт" Attribs="Deleted" Quantity="350">
+						<PriceBase Value="24,48" />
+					</Mat>
+					<Mat Caption="Планка начальная из оцинкованной стали с полимерным покрытием, размеры 200х50 мм, толщина 0,5 мм" Code="08.1.02.03-0061" Units="м" Attribs="Deleted" Quantity="42">
+						<PriceBase Value="420,91" />
+					</Mat>
+					<Mat Caption="Нащельник стальной оцинкованный с полимерным покрытием, толщина 0,5 мм" Code="08.1.02.03-0071" Units="м" Attribs="Deleted" Quantity="12">
+						<PriceBase Value="166,83" />
+					</Mat>
+					<Mat Caption="Угол наружный, внутренний из оцинкованной стали с полимерным покрытием, размеры 100х100 мм, толщина 0,5 мм" Code="08.1.02.03-0091" Units="м" Attribs="Deleted" Quantity="55">
+						<PriceBase Value="251,97" />
+					</Mat>
+					<Mat Caption="Сайдинг металлический с полимерным покрытием" Code="08.1.02.23" Units="м2" Options="NotCount" Quantity="118" />
+					<Mat Caption="Материал пароизоляционный" Code="12.1.01.03" Units="м2" Options="NotCount" Quantity="113" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Разметка проектного положения металлического каркаса." />
+					<Work Caption="Установка и крепление кронштейна выравнивающего к конструкциям здания дюбелями." />
+					<Work Caption="Установка П-образных направляющих профилей в кронштейны с креплением." />
+					<Work Caption="Срезка излишков кронштейна." />
+					<Work Caption="Укладка пароизоляционного слоя из пленки." />
+					<Work Caption="Установка углов и нащельников с креплением самонарезающими винтами." />
+					<Work Caption="Установка панели металлосайдинга с креплением самонарезающими винтами." />
+				</WorksList>
+			</Position>
+			<Position Caption="Шурупы-саморезы кровельные окрашенные 5,5х25 мм, RAL 5015- Небесно-голубой (4340805) 450шт" Number="49" Code="1164001.958" ItemFlags="Info" Units="кг" SysID="516" PriceLevel="Curr" Quantity="ОКР(6,33/1000*450; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="=6,33/1000*450" Precision="7" Result="2,8485" />
+				<PriceCurr MT="264,5" Comment="ЕС МТР 1164001.958, КСР" />
+			</Position>
+			<Position Caption="Саморез по металлу 4.2ММх16ММ (4241350) (4950шт)" Number="50" Code="1164001.711" Units="кг" SysID="602" PriceLevel="Curr" Quantity="ОКР(2,05*4,95; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="=2,05*4,95" Precision="7" Result="10,1475" />
+				<PriceCurr MT="465" Comment="ЕС МТР 1164001.711, КСР" />
+			</Position>
+			<Position Caption="Прокладки паронитовые 100х100х2, 0,0366кг - 1шт (4115126)" Number="51" Code="01.1.02.08-0031" Units="кг" SysID="603" PriceLevel="Curr" Quantity="ОКР(0,0366*1600; 7)" PzSync="Yes" Vr2001="2945" Mass="1,16">
+				<Quantity Fx="=0,0366*1600" Precision="7" Result="58,56" />
+				<PriceCurr MT="499,45" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="483,02" />
+			</Position>
+			<Position Caption="Профиль Т-образный 65х30х3000 толщ.1,2мм (4315947)" Number="52" Code="Optima-fasad 2025" Units="пог. м" SysID="519" PriceLevel="2001" Quantity="ОКР(1600; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="1600" Precision="7" Result="1600" />
+				<PriceCurr MT="56,11">
+					<Fx MT="217.77/1.2/1.078/3" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="Cайдинг стальной с полимерным покрытием, цвет по RAL  (4118996)" Number="53" Code="1147601.7" ColorIndex="4" Units="М2" SysID="604" PriceLevel="Curr" Quantity="ОКР(757,56; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="757,56" Precision="7" Result="757,56" />
+				<PriceCurr MT="780" Comment="ЕС МТР 1147601.7, КСР" />
+			</Position>
+			<Position Caption="Планка начальная 3000мм ГОСТ 24045-2016 (RAL 7004) (4119822)" Number="54" Code="Stynergy 2024" Units="м" SysID="605" PriceLevel="Curr" Quantity="140" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="140" Result="140" />
+				<PriceCurr MT="77,5" Comment="ЕС МТР 1579015.90, КСР 464.40">
+					<Fx MT="93/1,2" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="Элементы сайдинга металлического с покрытием полиэстер 'Планка угла наружного ' со стороной 50 мм (4121757)" Number="55" Code="Promindex.ru 2025" Units="пог.м" SysID="550" PriceLevel="2001" Quantity="ОКР(63; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="63" Precision="7" Result="63" />
+				<PriceCurr MT="69,57">
+					<Fx MT="180/1,2/2/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="Элементы сайдинга металлического с покрытием полиэстер &quot;Планка стыковочная&quot;(90562638)" Number="56" Code="Альфа-профиль 2025" Units="пог.м" SysID="553" PriceLevel="2001" Quantity="ОКР(303; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="303" Precision="7" Result="303" />
+				<PriceCurr MT="235,26">
+					<Fx MT="913/1,2/3/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="Заклепка вытяжная, алюминиевая (90096560)" Number="57" Code="01.7.15.08-0000-0037" ItemFlags="Info" Units="1000 шт" SysID="526" PriceLevel="Curr" Quantity="ОКР(3,5; 7)" PzSync="Yes" Vr2001="2945" Mass="3,241">
+				<Quantity Fx="3,5" KUnit="1000" Precision="7" Result="3,5" />
+				<PriceCurr MT="2422,49" Comment="(ЕС МТР: 1168007.330) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="2350" />
+			</Position>
+			<Position Caption="Кронштейн крепежный усиленный ККУ-100 (91184006)" Number="58" Code="1147010.74" Units="ШТ" SysID="607" PriceLevel="Curr" Quantity="ОКР(1600; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="1600" Precision="7" Result="1600" />
+				<PriceCurr MT="49,25" Comment="ЕС МТР 1147010.74, КСР" />
+			</Position>
+			<Position Caption="Болт анкерный 8,0x80 (90057893)" Number="59" Code="01.7.15.02-0000-0314" ItemFlags="Info" Units="1000 шт" SysID="523" PriceLevel="Curr" Quantity="ОКР(1,6; 7)" PzSync="Yes" Vr2001="2945" Mass="42,242">
+				<Quantity Fx="1,6" KUnit="1000" Precision="7" Result="1,6" />
+				<PriceCurr MT="30932,19" Comment="(ЕС МТР: 1129001.68) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="30000" />
+			</Position>
+			<Position Caption="Маты минераловатные на синтетическом, толщиной 50 мм (90623582)" Number="60" Code="12.2.05.05-0000-0009" Units="м3" SysID="612" PriceLevel="Curr" Quantity="ОКР(36,3; 7)" PzSync="Yes" Vr2001="2945" Mass="24">
+				<Quantity Fx="36,3" Precision="7" Result="36,3" />
+				<PriceCurr MT="2577,33" Comment="(ЕС МТР: 1576211.56) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="2162,14" />
+			</Position>
+			<Position Caption="Дюбель для теплоизоляции 10*100 с металлическим гвоздем (91160087)" Number="61" Code="Кувалда.ру 2025" Units="шт" SysID="558" PriceLevel="Curr" Quantity="ОКР(5150; 7)" PzSync="Yes" Vr2001="2945" Mass="0,004">
+				<Quantity Fx="5150" Precision="7" Result="5150" />
+				<PriceCurr MT="3,48" Comment="(ЕС МТР: 1165001.1018) ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="8,86">
+					<Fx MT="4,5/1,2/1,078" />
+				</PriceCurr>
+			</Position>
+			<Position Caption="Пароизоляция ИЗОСПАН B (2242992)" Number="62" Code="12.1.02.11-0000-0006" Units="м2" SysID="613" PriceLevel="Curr" Quantity="ОКР(709; 7)" PzSync="Yes" Vr2001="2945" Mass="0,078">
+				<Quantity Fx="709" Precision="7" Result="709" />
+				<PriceCurr MT="20,01" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="19,17" />
+			</Position>
+			<Position Caption="п.5.2, 5.3&#xD;&#xA;Облицовка откосов стальным листом" Number="63" Code="ГЭСН09-05-001-01" ColorIndex="3" Units="100 м2" SysID="614" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР((6,8+36,76) / 100; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10016">
+				<Quantity Fx="=6,8+36,76" KUnit="100" Precision="7" Result="0,4356" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,3" Code="1-100-33" Units="чел.-ч" Quantity="29,9" WorkClass="3,3">
+						<PriceCurr Value="409,59" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,31" />
+					<Mch Caption="Краны на автомобильном ходу, грузоподъемность 16 т" Code="91.05.05-015" Units="маш.-ч" Quantity="0,12">
+						<PriceBase Value="1167,7" ZM="451,93" />
+						<PriceCurr Value="2078,56" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,19">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Электроэнергия" Code="01.7.03.04-0001" Units="кВт-ч" Quantity="2,1892">
+						<PriceBase Value="4,94" />
+						<PriceCurr Value="3,24" ZM="3,24" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Заклепки комбинированные для соединения профилированного стального настила и разнообразных листовых деталей" Code="01.7.15.08-0011" Units="т" Attribs="Deleted" Quantity="0,0003">
+						<PriceBase Value="199827,16" />
+					</Mat>
+					<Mat Caption="Шурупы самонарезающие стальные оцинкованные кровельные с шестигранной головкой и шайбой, наконечник сверло, диаметр 4,8 мм, длина 50 мм" Code="01.7.15.14-0083" Units="т" Attribs="Deleted" Quantity="0,0003">
+						<PriceBase Value="239032,39" />
+					</Mat>
+					<Mat Caption="Стальной гнутый профиль (профилированный настил)" Code="08.3.09.05" Units="т" Options="Project NotCount" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Облицовка ворот стальным профилированным листом с креплением винтами и заклепками." />
+				</WorksList>
+			</Position>
+			<Position Caption="Сталь листовая оцинкованная с полимерным покрытием, толщина 0,7 мм (90411887)" Number="64" Code="08.3.05.05-0053" Units="т" SysID="617" PriceLevel="Curr" Quantity="ОКР((6,8+36,76)*5,7/1000; 7)" PzSync="Yes" Vr2001="2945" Mass="1000">
+				<Quantity Fx="=(6,8+36,76)*5,7/1000" Precision="7" Result="0,248292" />
+				<PriceCurr MT="91780,75" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="84260,9" />
+			</Position>
+			<Position Caption="Саморез по металлу 4.2ММх16ММ (4241350) (120шт+650шт)" Number="65" Code="1164001.711" Units="кг" SysID="618" PriceLevel="Curr" Quantity="ОКР(2,05*(0,12+0,65); 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="=2,05*(0,12+0,65)" Precision="7" Result="1,5785" />
+				<PriceCurr MT="465" Comment="ЕС МТР 1164001.711, КСР" />
+			</Position>
+			<Position Caption="п.5.4&#xD;&#xA;Устройство оконных отливов  шириной 0,4 м оцинкованной листовой сталью толщ. 0,7  мм" Number="66" Code="ГЭСН15-01-094-06" ColorIndex="3" Units="100 м2" SysID="573" PriceLevel="2001" DBComment="Приказ Минстроя России от 18.05.2022 №378/пр" Quantity="ОКР(27,1 / 100; 7)" PzSync="Yes" Vr2001="10025">
+				<Quantity Fx="=27,1" KUnit="100" Precision="7" Result="0,271" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,0" Code="1-100-30" Units="чел.-ч" Quantity="100,55" WorkClass="3">
+						<PriceCurr Value="394,66" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,43" />
+					<Mch Caption="Краны башенные, грузоподъемность 8 т" Code="91.05.01-017" Units="маш.-ч" Quantity="0,11">
+						<PriceBase Value="622,62" ZM="451,93" />
+						<PriceCurr Value="1450,53" ZM="575,78" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="6" Quantity="1" Price="575,78" />
+					</Mch>
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,32">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Электроэнергия" Code="01.7.03.04-0001" Units="кВт-ч" Quantity="25,54">
+						<PriceBase Value="4,94" />
+						<PriceCurr Value="3,24" ZM="3,24" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Заклепки" Code="01.7.15.08" Units="100 шт" Options="NotCount" Attribs="Deleted" Quantity="33,28" />
+					<Mat Caption="Шурупы" Code="01.7.15.14" Units="100 шт" Options="NotCount" Attribs="Deleted" Quantity="6,89" />
+					<Mat Caption="Круги отрезные" Code="01.7.17.06" Units="шт" Options="Project NotCount" Attribs="Deleted" />
+					<Mat Caption="Бур с наконечником из твердого сплава" Code="01.7.17.09" Units="шт" Options="Project NotCount" Attribs="Deleted" />
+					<Mat Caption="Сверло спиральное для сверления алюминия, нержавеющей стали, углеродистой стали и чугуна" Code="01.7.17.09" Units="шт" Options="Project NotCount" Attribs="Deleted" />
+					<Mat Caption="Профиль монтажный угловой 79° из оцинкованной стали с полимерным покрытием для навесных вентилируемых фасадов, сечение 40х40 мм, толщина стали 1,2 мм" Code="07.2.06.03-0298" Units="м" Attribs="Deleted" Quantity="197,05">
+						<PriceBase Value="193,15" />
+					</Mat>
+					<Mat Caption="Сливы оконные из оцинкованной стали, окрашенные, для навесных вентилируемых фасадов, толщина 0,5 мм" Code="08.1.02.07-0200" Units="м2" Quantity="110,23">
+						<PriceBase Value="5911,37" />
+						<PriceCurr Value="1099,67" ZM="1029" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+				</Resources>
+				<WorksList>
+					<Work Caption="Разметка, резка оконного отлива под размер." />
+					<Work Caption="Установка оконного отлива." />
+				</WorksList>
+			</Position>
+			<Position Caption="Сталь листовая оцинкованная с полимерным покрытием, толщина 0,7 мм (90411887)" Number="67" Code="08.3.05.05-0053" Units="т" SysID="619" PriceLevel="Curr" Quantity="ОКР(27,1*5,7/1000; 7)" PzSync="Yes" Vr2001="2945" Mass="1000">
+				<Quantity Fx="=27,1*5,7/1000" Precision="7" Result="0,15447" />
+				<PriceCurr MT="91780,75" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="84260,9" />
+			</Position>
+			<Position Caption="Саморез по металлу 4.2ММх16ММ (4241350) (480шт)" Number="68" Code="1164001.711" Units="кг" SysID="620" PriceLevel="Curr" Quantity="ОКР(2,05*0,48; 7)" PzSync="Yes" Vr2001="2945">
+				<Quantity Fx="=2,05*0,48" Precision="7" Result="0,984" />
+				<PriceCurr MT="465" Comment="ЕС МТР 1164001.711, КСР" />
+			</Position>
+			<Position Caption="п.5.5&#xD;&#xA;Герметизация швов" Number="69" Code="ГЭСН46-08-022-01" ColorIndex="3" Units="100 м" SysID="622" PriceLevel="2001" DBComment="Приказ Минстроя России от 13.05.2024 №323/пр" Quantity="ОКР(5; 7)" PzSync="Yes" Vr2001="10064">
+				<Quantity Fx="5" KUnit="100" Precision="7" Result="5" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 4,0" Code="1-100-40" Units="чел.-ч" Quantity="7,19" WorkClass="4">
+						<PriceCurr Value="444,41" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,01" />
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,01">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Электроэнергия" Code="01.7.03.04-0001" Units="кВт-ч" Quantity="4,824">
+						<PriceBase Value="4,94" />
+						<PriceCurr Value="3,24" ZM="3,24" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Щетка дисковая для УШМ из стальной проволоки" Code="01.7.17.12" Units="шт" Options="Project NotCount" />
+					<Mat Caption="Герметик полиуретановый" Code="14.5.01.06" Units="кг" Options="NotCount" Quantity="19,5" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Выгрузка материалов на месте производства работ." />
+					<Work Caption="Очистка шва от пыли и грязи." />
+					<Work Caption="Заполнение шва герметическим материалом." />
+					<Work Caption="Выравнивание поверхности шва." />
+				</WorksList>
+			</Position>
+			<Position Caption="Пена монтажная (90706606)" Number="70" Code="01.7.14.01-0002-0001" ItemFlags="Info" Units="шт" SysID="538" PriceLevel="Curr" Quantity="ОКР(25; 7)" PzSync="Yes" Vr2001="2945" Mass="1,624">
+				<Quantity Fx="25" Precision="7" Result="25" />
+				<PriceCurr MT="452,05" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" Ws="430,17" />
+			</Position>
+			<Position Caption="п.5.6&#xD;&#xA;Установка и разборка наружных инвентарных лесов высотой до 16 м: трубчатых для прочих отделочных работ" Number="71" Code="ГЭСН08-07-001-02" ColorIndex="3" Units="100 м2" SysID="616" PriceLevel="2001" DBComment="Приказ Минстроя России от 13.05.2024 №323/пр" Quantity="ОКР(595 / 100; 7)" DBFlags="TechK" PzSync="Yes" Vr2001="10015">
+				<Quantity Fx="=595" KUnit="100" Precision="7" Result="5,95" />
+				<Resources>
+					<Tzr Caption="Средний разряд работы 3,1" Code="1-100-31" Units="чел.-ч" Quantity="43,5" WorkClass="3,1">
+						<PriceCurr Value="399,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Tzr>
+					<Tzm Caption="Затраты труда машинистов" Code="2" Units="чел.-ч" Quantity="0,07" />
+					<Mch Caption="Автомобили бортовые, грузоподъемность до 5 т" Code="91.14.02-001" Units="маш.-ч" Quantity="0,07">
+						<PriceBase Value="477,92" ZM="336,43" />
+						<PriceCurr Value="980,1" ZM="428,64" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+						<Tzm2022 WorkClass="4" Quantity="1" Price="428,64" />
+					</Mch>
+					<Mat Caption="Леса стальные стоечные приставные хомутовые (стойки, связи, поперечины, лестницы) в комплекте с пробками (хомутами, башмаками, болтами), без щитов настила, высота лесов до 60 м" Code="01.7.16.02-0002" Units="т" Quantity="0,035">
+						<PriceBase Value="91734,54" />
+						<PriceCurr Value="57454,52" ZM="47165,13" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Бруски обрезные хвойных пород (ель, сосна), естественной влажности, длина 2-6,5 м, ширина 20-90 мм, толщина 20-90 мм, сорт III" Code="11.1.03.01-0063" Units="м3" Quantity="0,009">
+						<PriceBase Value="16496,03" />
+						<PriceCurr Value="19742,35" ZM="16351,35" Comment="ССЦр 2024 зона 118 сметные цены (ЭММ без учета ЗПМ) Республика Башкортостан, Оренбургская область (за исключением ОГПЗ, ОГЗ)" />
+					</Mat>
+					<Mat Caption="Щиты настила" Code="11.2.13.04" Units="м2" Options="NotCount" Quantity="3,4" />
+				</Resources>
+				<WorksList>
+					<Work Caption="Планировка места установки наружных лесов." />
+					<Work Caption="Сборка и установка инвентарных лесов с устройством настилов, ограждений, стремянок и ходовых лестниц." />
+					<Work Caption="Разборка лесов." />
+					<Work Caption="Восстановительный ремонт деталей лесов при каждом обороте их." />
+					<Work Caption="Завозка готовых элементов лесов с приобъектного склада на объект и отвозка их с объекта на приобъектный склад." />
+				</WorksList>
+			</Position>
+		</Chapter>
+	</Chapters>
+	<ReportOptions Options="SeparateZakPodr CalcTotal" Kk="1" RangingGroups="Mch Mat">
+		<RangingRates Mch="20" Mat="20" />
+	</ReportOptions>
+</Document>
