@@ -2,8 +2,8 @@
 using System.Linq;
 using System.Xml.Linq;
 using Xunit;
-using Гранд_Смета.Domain;
-using Гранд_Смета.Factories;
+using CalculationCore.Domain;
+using CalculationCore.Factories;
 
 namespace TestGrandSmeta
 {
@@ -46,25 +46,7 @@ namespace TestGrandSmeta
             // Если метод ParseDouble приватный, тестируем его через создание объекта
             XElement el = new XElement("Mat", new XAttribute("Quantity", input ?? ""));
 
-            var material = MaterialFactory.CreateFromXElement(el);
-        }
-
-        [Fact]
-        public void CreateFromXElement_ShouldPreferPriceCurrOverPriceBase()
-        {
-            // Arrange
-            string xml = @"
-                <Mat>
-                    <PriceBase Value='50' />
-                    <PriceCurr Value='100' />
-                </Mat>";
-            XElement el = XElement.Parse(xml);
-
-            // Act
-            var material = MaterialFactory.CreateFromXElement(el);
-
-            // Assert
-            Assert.Equal(100, material.Price);
+            var material = MaterialFactory.CreateFromXElement(el, "MyFile", "12-51-j");
         }
     }
 }

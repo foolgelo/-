@@ -10,6 +10,7 @@ using System.Xml.Linq;
 using Excel = Microsoft.Office.Interop.Excel;
 using Office = Microsoft.Office.Core;
 using Гранд_Смета.UI;
+using Microsoft.Office.Interop.Excel;
 
 
 namespace Гранд_Смета
@@ -18,7 +19,7 @@ namespace Гранд_Смета
     {
         private void ThisAddIn_Startup(object sender, System.EventArgs e)
         {
-
+            var app = Globals.ThisAddIn.Application;
         }
 
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)

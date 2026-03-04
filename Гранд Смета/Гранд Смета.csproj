@@ -214,9 +214,6 @@
     can be found.
   -->
   <ItemGroup>
-    <Compile Include="Attributes\ColumnAttribute.cs" />
-    <Compile Include="Domain\Material.cs" />
-    <Compile Include="Factories\MaterialFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -248,7 +245,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Repository\gsfxRepository.cs" />
     <Compile Include="ThisAddIn.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -261,7 +257,12 @@
     <AppDesigner Include="Properties\" />
     <None Include="Гранд Смета_TemporaryKey.pfx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\CalculationCore\CalculationCore.csproj">
+      <Project>{c14fc25f-41c8-4898-8532-5919f8e3d45b}</Project>
+      <Name>CalculationCore</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

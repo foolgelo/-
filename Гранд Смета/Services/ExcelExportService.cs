@@ -1,11 +1,11 @@
-﻿using Microsoft.Office.Interop.Excel;
+﻿using CalculationCore.Attributes; // Ваша библиотека с атрибутами
+using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using Гранд_Смета.Attributes;
+using System.Windows.Forms;
+using Гранд_Смета;
 
 namespace Гранд_Смета.Services
 {
@@ -14,60 +14,82 @@ namespace Гранд_Смета.Services
         public void ExportToNewSheet<T>(IEnumerable<T> items, string sheetName, string tableName)
         {
             var app = Globals.ThisAddIn.Application;
+            var itemList = items.ToList();
 
-            // 1. Получаем или создаем лист
+            if (!itemList.Any())
+            {
+                MessageBox.Show("Нет данных для выгрузки.");
+                return;
+            }
+
+            // 1. Подготовка листа (создаем или очищаем существующий)
             Worksheet sheet = GetOrCreateSheet(app, sheetName);
-            sheet.Activate(); // Переключаемся на него
+            sheet.Activate();
 
-            // 2. Получаем метаданные из атрибутов (Reflection)
+            // 2. Сбор метаданных через Reflection (используем наш атрибут с Order)
             var props = typeof(T).GetProperties()
-                .Where(p => p.IsDefined(typeof(ColumnAttribute), false))
-                .Select(p => new {
+                .Where(p => Attribute.IsDefined(p, typeof(ColumnAttribute)))
+                .Select(p => new
+                {
                     Property = p,
-                    Attr = p.GetCustomAttribute<ColumnAttribute>()
+                    Attr = (ColumnAttribute)Attribute.GetCustomAttribute(p, typeof(ColumnAttribute))
                 })
                 .OrderBy(x => x.Attr.Order)
                 .ToList();
 
-            if (!props.Any()) return;
+            int rows = itemList.Count;
+            int cols = props.Count;
 
-            // 3. Формируем данные
-            var itemList = items.ToList();
-            string[] headers = props.Select(x => x.Attr.Header).ToArray();
-            object[,] data = new object[itemList.Count, props.Count];
-
-            for (int i = 0; i < itemList.Count; i++)
+            // 3. Подготовка двумерного массива данных (быстрее, чем писать в каждую ячейку)
+            object[,] data = new object[rows, cols];
+            for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < props.Count; j++)
+                for (int j = 0; j < cols; j++)
                 {
                     data[i, j] = props[j].Property.GetValue(itemList[i]) ?? string.Empty;
                 }
             }
 
-            // 4. Выгружаем (Bulk Update)
             app.ScreenUpdating = false;
             try
             {
-                // Очищаем всё старое на листе перед новой выгрузкой
-                sheet.Cells.ClearContents();
+                // Очищаем лист перед новой выгрузкой
+                sheet.Cells.Clear();
 
-                // Создаем таблицу (ListObject) начиная с ячейки A1
-                Range startRange = sheet.Range["$A$1"].Resize[itemList.Count + 1, props.Count];
+                // 4. Создаем "Умную таблицу" (ListObject)
+                // Резервируем место: заголовки (A1) + данные
+                Range startRange = sheet.Range["A1"].Resize[rows + 1, cols];
                 ListObject lo = sheet.ListObjects.Add(XlListObjectSourceType.xlSrcRange, startRange, Type.Missing, XlYesNoGuess.xlYes);
                 lo.Name = tableName;
 
-                // Вставляем заголовки и данные
+                // Заполняем заголовки
+                string[] headers = props.Select(p => p.Attr.Header).ToArray();
                 lo.HeaderRowRange.Value2 = headers;
-                if (itemList.Count > 0)
+
+                // 5. ПРИМЕНЯЕМ ФОРМАТЫ (До вставки данных!)
+                // Это критично для кодов (чтобы не стали датами)
+                for (int j = 0; j < cols; j++)
                 {
-                    lo.DataBodyRange.Value2 = data;
+                    if (!string.IsNullOrEmpty(props[j].Attr.Format))
+                    {
+                        // Выделяем колонку данных (без заголовка)
+                        Range colRange = lo.DataBodyRange.Columns[j + 1];
+                        colRange.NumberFormat = props[j].Attr.Format;
+                    }
                 }
 
-                // Автоподбор ширины колонок
+                // 6. Вставляем массив данных целиком
+                lo.DataBodyRange.Value2 = data;
+
+                // Финальные штрихи
                 sheet.Columns.AutoFit();
 
-                // Обновляем Power Query
+                // 7. Обновляем Power Query (он увидит таблицу по имени)
                 app.ActiveWorkbook.RefreshAll();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка при выгрузке: {ex.Message}");
             }
             finally
             {
@@ -75,7 +97,7 @@ namespace Гранд_Смета.Services
             }
         }
 
-        private Worksheet GetOrCreateSheet(Application app, string name)
+        private Worksheet GetOrCreateSheet(Microsoft.Office.Interop.Excel.Application app, string name)
         {
             Worksheet sheet = app.Sheets.Cast<Worksheet>()
                 .FirstOrDefault(s => s.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
