@@ -34,19 +34,15 @@ namespace Гранд_Смета.UI
                     try
                     {
                         gsfxRepository repo = new gsfxRepository(path);
-                        IEnumerable<Material> materials = repo.GetMaterialsFromGSFX();
-
-                        // 3. Отдаем в сервис выгрузки
-                        var excelService = new ExcelExportService();
-                        excelService.ExportToNewSheet(materials, "Отчет", "TablePQ");
+                        IEnumerable<Position> materials = repo.GetAllMaterials();
 
 
                         ExcelExportService service = new ExcelExportService();
-                        service.ExportToNewSheet(materials, "Материалы", "TableMaterials");
+                        service.ExportMaterials(materials, "Материалы", "TableMaterials");
                     }
                     catch (Exception ex)
                     {
-                        System.Windows.Forms.MessageBox.Show("Ошибка: " + ex.Message);
+                        MessageBox.Show("Ошибка: " + ex.Message);
                     }
                 }
             }

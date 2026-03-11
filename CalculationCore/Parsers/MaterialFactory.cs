@@ -17,12 +17,10 @@ namespace CalculationCore.Factories
         {
             return new Material
             {
-                fileName = fileName,
-                LocNumber = locNum,
                 Name = (string)el.Attribute("Caption") ?? "",
                 Code = (string)el.Attribute("Code") ?? "",
                 Unit = (string)el.Attribute("Units") ?? "",
-                Quantity = (decimal)ParseDouble((string)el.Attribute("Quantity")),
+                Quantity = (string)el.Attribute("Quantity"),
                 BasePrice = (decimal)ParseDouble((string)el.Element("PriceBase")?.Attribute("Value")),
                 CurrPrice = (decimal)ParseDouble((string)el.Element("PriceCurr")?.Attribute("Value"))
             };

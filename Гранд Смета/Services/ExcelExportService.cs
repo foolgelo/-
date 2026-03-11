@@ -1,9 +1,9 @@
-﻿using CalculationCore.Attributes; // Ваша библиотека с атрибутами
+﻿using CalculationCore.Domain;
+using CalculationCore.Attributes;
 using Microsoft.Office.Interop.Excel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Reflection;
 using System.Windows.Forms;
 using Гранд_Смета;
 
@@ -11,80 +11,81 @@ namespace Гранд_Смета.Services
 {
     public class ExcelExportService
     {
-        public void ExportToNewSheet<T>(IEnumerable<T> items, string sheetName, string tableName)
+        /// <summary>
+        /// Экспортирует только материалы, а также FileName и LocNumber позиции.
+        /// </summary>
+        public void ExportMaterials(IEnumerable<Position> positions, string sheetName, string tableName)
         {
             var app = Globals.ThisAddIn.Application;
-            var itemList = items.ToList();
+            // Собираем все материалы с нужными полями позиции
+            var rows = positions
+                .Where(p => p.Materials != null)
+                .SelectMany(p => p.Materials.Select(m => new
+                {
+                    FileName = p.FileName,
+                    LocNumber = p.LocNumber,
+                    Name = m.Name,
+                    Code = m.Code,
+                    Unit = m.Unit,
+                    Quantity = m.Quantity,
+                    BasePrice = m.BasePrice,
+                    CurrPrice = m.CurrPrice
+                }))
+                .ToList();
 
-            if (!itemList.Any())
+            if (!rows.Any())
             {
                 MessageBox.Show("Нет данных для выгрузки.");
                 return;
             }
 
-            // 1. Подготовка листа (создаем или очищаем существующий)
+            // Определяем заголовки и форматы
+            var headers = new[] { "Файл", "Локальный номер", "Наименование", "Код", "Ед.", "Кол-во", "Базовая цена", "Текущая цена" };
+            var formats = new[] { "@", "@", "@", "@", "@", "0.###", "0.00", "0.00" };
+
+            int rowCount = rows.Count;
+            int colCount = headers.Length;
+
+            object[,] data = new object[rowCount, colCount];
+            for (int i = 0; i < rowCount; i++)
+            {
+                data[i, 0] = rows[i].FileName ?? "";
+                data[i, 1] = rows[i].LocNumber ?? "";
+                data[i, 2] = rows[i].Name ?? "";
+                data[i, 3] = rows[i].Code ?? "";
+                data[i, 4] = rows[i].Unit ?? "";
+                data[i, 5] = rows[i].Quantity ?? "";
+                data[i, 6] = rows[i].BasePrice;
+                data[i, 7] = rows[i].CurrPrice;
+            }
+
             Worksheet sheet = GetOrCreateSheet(app, sheetName);
             sheet.Activate();
-
-            // 2. Сбор метаданных через Reflection (используем наш атрибут с Order)
-            var props = typeof(T).GetProperties()
-                .Where(p => Attribute.IsDefined(p, typeof(ColumnAttribute)))
-                .Select(p => new
-                {
-                    Property = p,
-                    Attr = (ColumnAttribute)Attribute.GetCustomAttribute(p, typeof(ColumnAttribute))
-                })
-                .OrderBy(x => x.Attr.Order)
-                .ToList();
-
-            int rows = itemList.Count;
-            int cols = props.Count;
-
-            // 3. Подготовка двумерного массива данных (быстрее, чем писать в каждую ячейку)
-            object[,] data = new object[rows, cols];
-            for (int i = 0; i < rows; i++)
-            {
-                for (int j = 0; j < cols; j++)
-                {
-                    data[i, j] = props[j].Property.GetValue(itemList[i]) ?? string.Empty;
-                }
-            }
 
             app.ScreenUpdating = false;
             try
             {
-                // Очищаем лист перед новой выгрузкой
                 sheet.Cells.Clear();
 
-                // 4. Создаем "Умную таблицу" (ListObject)
-                // Резервируем место: заголовки (A1) + данные
-                Range startRange = sheet.Range["A1"].Resize[rows + 1, cols];
+                Range startRange = sheet.Range["A1"].Resize[rowCount + 1, colCount];
                 ListObject lo = sheet.ListObjects.Add(XlListObjectSourceType.xlSrcRange, startRange, Type.Missing, XlYesNoGuess.xlYes);
                 lo.Name = tableName;
 
-                // Заполняем заголовки
-                string[] headers = props.Select(p => p.Attr.Header).ToArray();
+                // Заголовки
                 lo.HeaderRowRange.Value2 = headers;
 
-                // 5. ПРИМЕНЯЕМ ФОРМАТЫ (До вставки данных!)
-                // Это критично для кодов (чтобы не стали датами)
-                for (int j = 0; j < cols; j++)
+                // Форматы
+                for (int j = 0; j < colCount; j++)
                 {
-                    if (!string.IsNullOrEmpty(props[j].Attr.Format))
+                    if (!string.IsNullOrEmpty(formats[j]))
                     {
-                        // Выделяем колонку данных (без заголовка)
                         Range colRange = lo.DataBodyRange.Columns[j + 1];
-                        colRange.NumberFormat = props[j].Attr.Format;
+                        colRange.NumberFormat = formats[j];
                     }
                 }
 
-                // 6. Вставляем массив данных целиком
                 lo.DataBodyRange.Value2 = data;
-
-                // Финальные штрихи
                 sheet.Columns.AutoFit();
-
-                // 7. Обновляем Power Query (он увидит таблицу по имени)
                 app.ActiveWorkbook.RefreshAll();
             }
             catch (Exception ex)
